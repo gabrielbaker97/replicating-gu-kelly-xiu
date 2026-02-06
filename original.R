@@ -11,7 +11,7 @@ library(tidyfinance)
 options(timeout = 10800)
 
 url <- "https://dachxiu.chicagobooth.edu/download/datashare.zip"
-dest <- "datashare.zip"
+dest <- "data/datashare.zip"
 
 # Only download if not already present
 if (!file.exists(dest)) {
